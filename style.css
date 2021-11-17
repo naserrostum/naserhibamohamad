@@ -1,0 +1,284 @@
+/* Header */
+.header {
+    width: 100%;
+    height:100px; 
+    background-color: lightgray;
+    padding:5px;
+}
+
+.logo {
+    height: 80px; 
+    margin:5px; 
+    position: absolute;
+    top:5px;
+    left:20px;
+}
+
+.menu-bar{
+    list-style-type:none; 
+    margin:0;
+    padding:0;
+    overflow:hidden; 
+    position: absolute; 
+    top: 35px; 
+    left:300px; 
+    font-size:30px; 
+}
+
+.menu-bar li{
+    float:left; 
+}
+
+.menu-bar li a {
+    display: block; 
+    color:darkblue;
+    text-align:center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    transition: 0.5s; 
+}
+
+.menu-bar li a:hover {
+    display: block; 
+    color:red;
+    text-align:center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    font-size:40px; 
+}
+
+.menu-bar li .active {
+    color: darkred; 
+    text-decoration: underline;
+}
+
+/* Cover */
+.cover{
+    width:100%;
+    height:600px;
+    text-align:center; 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/cover.jpg"); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative; 
+}
+
+.cover-courses{
+    width:100%;
+    height:600px;
+    text-align:center; 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/courses.jpg"); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative; 
+}
+
+.cover-about{
+    width:100%;
+    height:600px;
+    text-align:center; 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/about.jpg"); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative; 
+}
+.cover-Contact-us{
+    width:100%;
+    height:600px;
+    text-align:center; 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Contact-us.jpg"); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative; 
+}
+.cover-Instructos{
+    width:100%;
+    height:600px;
+    text-align:center; 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Instructos.png"); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative; 
+}
+.cover-html{
+    width:100%;
+    height:600px;
+    text-align:center; 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/html.jpg"); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative; 
+}
+.cover-naserl{
+    width:100%;
+    height:600px;
+    text-align:center; 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/naser1.jpg"); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative; 
+}
+.cover-title{
+    text-align: center; 
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size:40px;
+}
+
+.section-title{
+    font-size:50px; 
+    color:blue;
+}
+
+.course{
+    width:20%; 
+    height:470px; 
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s; 
+    display: inline-block;
+    position:absolute;
+   
+}
+
+.course:hover{
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+
+.first-course {
+    left: 5%;
+}
+
+.second-course{
+    left:25%
+}
+
+.third-course{
+    left:50%; 
+}
+
+
+.fourth-course{
+    left:75%
+}
+
+.course .course-logo{
+    margin:20px;
+    width:90%; 
+}
+
+.course .title{
+    text-align:center;
+    font-size: 30px; 
+    color:blue; 
+}
+
+
+/*  Subscripe to our news letter  */ 
+.parallex{
+    margin-top:600px;
+        /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/web-banner.jpg");
+
+    /* Set a specific height */
+    height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*  Subscripe to our news letter  */ 
+.parallex1{
+    margin-top:600px;
+        /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/web-banner.jpg");
+
+    /* Set a specific height */
+    height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Footer */
+.footer{
+    width: 100%; 
+    background-color:darkblue;
+}
+
+.footer .footer-title{
+    font-size: 50px;
+    color:white; 
+    margin:30px; 
+}
+
+.footer .footer-section{
+    margin-top:20px;
+    color:white; 
+    display: inline-block;
+    margin-left: 15%; 
+}
+
+
+.footer .footer-list{
+    color:white; 
+    font-size:25px;
+}
+
+/* Contact us */
+.cover_map{
+    width:60%;
+    height:600px;
+    text-align:center; 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/map.PNG"); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+    display: inline-block;  
+}
+
+.content{
+    margin:20px;
+    display: inline-block; 
+    width: 30%; 
+    color:darkblue; 
+}
+
+.content h1{
+    font-size: 40px; 
+}
+
+.content ul{
+    font-size:20px;
+}
+
+.about-title{
+    color:darkblue;
+    margin-left:30px; 
+    margin-top:10px; 
+    font-size:40px; 
+}
+
+.about-content{
+    color:black; 
+    margin: 35px; 
+    font-size:25px
+}
